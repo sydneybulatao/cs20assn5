@@ -1,0 +1,33 @@
+@font-face{font-family: "Play";
+src: url("./fonts/Play-Regular.ttf");}
+@font-face{font-family: "PressStart2P";
+src: url("./fonts/PressStart2P-Regular.ttf");}
+
+
+body,html {color: #fff; font-family: "Play", sans-serif; font-size: 30px;}
+h1 {font-family: "PressStart2P", sans-serif; color: #63bfdb;
+    font-size: 50px;}
+h2 {font-family: "PressStart2P", sans-serif;  color: #63bfdb;}
+a {text-decoration: none; display: block;}
+.button {text-align: center; border-radius: 5px; border-color: #63bfdb;
+         border-style: solid; width: auto; max-width: 500px;}
+.button:hover {background-color: rgba(245, 253, 255, 0.1);}
+
+body {
+    background: linear-gradient(-45deg, #3295ad, #e73c7e, #23a6d5, #000);
+    background-size: 200% 5000%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 750px) {.no-mobile {display: none}}

@@ -1,0 +1,27 @@
+- choose random set of 5 numbers (with no repeats)
+    - Math.random()
+    - range: 1-48
+    - store in an array called pick
+- choose another random number 
+    - range: 1-18
+    - store in variable called Lucky Ball
+- sort pick 
+- winning array: 12, 15, 24, 35, 48
+- winning lucky ball: 3
+- check if these match your pick and lucky ball 
+    - variable with number of balls matched in array 
+    - variable with if lucky ball matched 
+    - based on these two variables, determine prize using table in rubric
+    - store money amount in prize variable 
+    
+Output on page:
+- pick before sorting 
+- pick after sorting 
+- lucky ball 
+- winning numbers and winning lucky ball 
+- number of balls matched 
+- if lucky ball matched 
+- prize ($) 
+
+CREDIT:
+- animated background: https://www.sliderrevolution.com/resources/css-animated-background/
